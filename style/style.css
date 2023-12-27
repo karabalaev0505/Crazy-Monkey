@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.header-nav{
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    column-gap: 20px;
+}
+
+.header-link{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #242424;
+    transition: 0.5s;
+}
+
+.header-link:hover{
+    color: orange;
+    transition: 0.9s;
+    font-size: 20px;
+}
+
+.home{
+    padding: 220px 0 236px;
+    background: url("../images/homeBg.png") center/cover no-repeat;
+    text-align: center;
+}
+
+.home-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.home-btn{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #242424;
+    padding: 16px 77px 18px;
+    background: #FEC503;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.home-btn:hover{
+    color: black;
+    cursor: pointer;
+    background: orange;
+    transition: 0.5s;
+}
+
+.some-text{
+    color: #FEC503;
+}
+
+.benefits{
+    padding: 100px 0;
+}
+
+.benefits-row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-card{
+    width: calc(50% - 5px);
+}
+
+.benefits-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #242424;
+    margin-bottom: 85px;
+}
+
+.benefits-card-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #242424;
+    margin: 26px 0 10px;
+}
+
+.benefits-card-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #808386;
+    margin-bottom: 52px;
+}
+
+.portfolio{
+    padding: 100px 0;
+    background: #242424;
+}
+
+.portfolio-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.portfolio-row-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.row-card{
+    width: calc(50% - 5px);
+    height: 310px;
+    border-radius: 10px;
+}
+
+.row-card2{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: calc(50% - 5px);
+}
+
+.portfolio-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    column-gap: 15px;
+}
+
+.portfolio-bottom:hover{
+    cursor: pointer;
+}
+
+.portfolio-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.aboutUs{
+    padding: 100px 0;
+}
+
+.aboutUs-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs-video{
+    width: 490px;
+    height: 350px;
+}
+
+.aboutUs-title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #242424;
+    margin-bottom: 30px;
+}
+
+.aboutUs-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #808386;
+    margin-bottom: 30px;
+}
+
+.aboutUs-contact{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #242424;
+}
+
+.aboutUs-block{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.footer{
+    padding: 35px 0;
+    background: #242424;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: right;
+    color: #808386;
+}
+
